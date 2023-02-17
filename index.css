@@ -1,0 +1,103 @@
+body {
+    background-color: black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .container {
+    background-color: #fff;
+    max-width: 800px;
+    margin: auto;
+    margin-top: 50px;
+    border: 3px solid #333;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 20px 0px #333;
+  }
+  
+  h1 {
+    color: #333;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  h2 {
+    color: #333;
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
+  
+  p {
+    color: #333;
+    font-size: 15px;
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
+  
+  button {
+    border: none;
+    padding: 10px;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 100px;
+    width: auto; /* set the width to auto */
+    margin-right: 10px; /* add some margin between buttons */
+    padding: 10px 20px;
+
+  }
+  
+  
+  #increment-btn {
+    background-color: #28a745;
+  }
+  
+  #decrement-btn {
+    background-color: #dc3545;
+  }
+  
+  #reset-btn {
+    background-color: #007bff;
+  }
+  
+  #save-btn {
+    background-color: #28a745;
+  }
+  
+  #clear-btn {
+    background-color: #6c757d;
+    color: #fff;
+  }
+  
+  #save-clear-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  #error-message {
+    color: red;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  #preent {
+    color: #333;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .no-entries {
+    color: #333;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  
+#save-btn i,
+#clear-btn i {
+  margin-right: 10px;
+}

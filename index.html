@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Counter App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="D:\Code\JS\Counter\1.png">
+
+    <script src="https://kit.fontawesome.com/6dd963c6d5.js" crossorigin="anonymous"></script>
+  </head>
+  <body class="stripes">
+    <div class="container">
+      <h1>Counter App</h1>
+      <h2 id="num">0</h2>
+      <button id='increment-btn' onclick="increment()"><i class="fas fa-plus"></i> INCREMENT</button>
+      <button id='decrement-btn' onclick="decrement()"><i class="fas fa-minus"></i> DECREMENT</button>
+      <button id='reset-btn' onclick="reset()"><i class="fas fa-sync-alt"></i> RESET</button>
+      <div id="error-message"></div>
+    </div>
+    <div class="container">
+      <button id='save-btn' onclick="save()"><i class="fas fa-save"></i> SAVE</button>
+      <button id='clear-btn' onclick="cleartext()"><i class="fas fa-trash-alt"></i> CLEAR</button>
+      <p id="preent">Previous Entries:</p>
+      <div id="no-entries" class="no-entries">No entries yet.</div>
+      <div id="error-message"></div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

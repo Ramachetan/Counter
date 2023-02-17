@@ -1,0 +1,26 @@
+ /* FontAwesome icons */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css");
+
+/* Custom styles for icons */
+.icon {
+  display: inline-block;
+  font-size: 20px;
+  margin-right: 5px;
+}
+
+/* Styles for specific icons */
+.fa-save {
+  color: #fff;
+}
+
+.fa-trash-alt {
+  color: #fff;
+}
+.no-entries {
+    display: none;
+    color: #ff0000;
+    font-size: 16px;
+  }
+
+
+  
